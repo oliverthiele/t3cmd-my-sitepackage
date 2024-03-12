@@ -1,0 +1,18 @@
+page = PAGE
+page {
+    config {
+        admPanel = 1
+    }
+    10 = TEXT
+    10.value = Hallo Dresden!
+
+
+}
+#page.100 = CONTENT
+#page.100 {
+#    table = tt_content
+#    select {
+#        orderBy = sorting
+#        where = {#colPos}=0
+#    }
+#}

@@ -1,0 +1,14 @@
+{
+    "name": "t3cmd/my-sitepackage",
+    "type": "typo3-cms-extension",
+    "description" : "Example sitepackage",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.1"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "my_sitepackage"
+        }
+    }
+}
